@@ -9,6 +9,10 @@
     display: table;
     clear: both;
 }
+a {
+    text-decoration: none;
+    color: black;
+}
 
 /* sezione prodotti */
 .container {
@@ -20,6 +24,10 @@
     width: calc(100% / 3 - 20px);
     float: left;
     margin: 10px;
+}
+/* box superiore */
+.product .box {
+    position: relative;
 }
 .product .box img {
     width: 100%;
@@ -33,6 +41,19 @@
 }
 .product .box:hover .img-hover {
     display: block;
+}
+.product .box .heart {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    position: absolute;
+    top: 20px;
+    right: 0;
+    text-align: center;
+    line-height: 40px;
+}
+.product .box .heart:hover {
+    color: red;
 }
 
 /* +++ debug +++ */
