@@ -1,0 +1,33 @@
+/* common */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* sezione prodotti */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+/* prodotto singolo */
+.product {
+    width: calc(100% / 3);
+}
+
+
+/* +++ debug +++ */
+.debug.container {
+    background-color: lightgrey;
+    height: 1000px;
+}
+
+.debug.product {
+    background-color: blue;
+    height: 600px;
+}
+.debug .box {
+    background-color: yellow;
+    width: 100%;
+    height: 500px;
+}
