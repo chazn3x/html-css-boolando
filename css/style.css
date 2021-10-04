@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: arial;
 }
 .clearfix::after {
     content: '';
@@ -54,6 +55,21 @@ a {
 }
 .product .box .heart:hover {
     color: red;
+}
+.product .box .sconti-sostenibilita {
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    position: absolute;
+    bottom: 20px;
+}
+.product .box .sconti-sostenibilita .sconto {
+    background-color: red;
+    padding: 4px;
+}
+.product .box .sconti-sostenibilita .sostenibilità {
+    background-color: green;
+    padding: 4px;
 }
 
 /* +++ debug +++ */
