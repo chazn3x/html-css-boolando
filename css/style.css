@@ -4,30 +4,41 @@
     padding: 0;
     box-sizing: border-box;
 }
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
 
 /* sezione prodotti */
 .container {
     width: 1200px;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 /* prodotto singolo */
 .product {
-    width: calc(100% / 3);
+    width: calc(100% / 3 - 20px);
+    float: left;
+    margin: 10px;
 }
 
 
 /* +++ debug +++ */
-.debug.container {
+/* .debug.container {
     background-color: lightgrey;
     height: 1000px;
-}
+} */
 
 .debug.product {
     background-color: blue;
-    height: 600px;
+    /* height: 600px; */
 }
 .debug .box {
     background-color: yellow;
     width: 100%;
-    height: 500px;
+    height: 600px;
+}
+.debug .info-prodotto {
+    background-color: green;
+    height: 100px;
 }
