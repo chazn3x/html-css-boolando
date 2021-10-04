@@ -52,6 +52,7 @@ a {
     right: 0;
     text-align: center;
     line-height: 40px;
+    font-size: 25px;
 }
 .product .box .heart:hover {
     color: red;
